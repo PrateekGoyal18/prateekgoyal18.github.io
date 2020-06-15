@@ -41,11 +41,12 @@
         &nbsp;
         <a href="https://github.com/PrateekGoyal18" target="_blank"><img alt="GitHub" src="assets/github.png" width="33"></a>
         &nbsp;
-        <a href="" id="email" target="_blank"><img alt="Email" src="assets/email.png" width="33"></a>
+        <a id="email" target="_blank"><img alt="Email" src="assets/email.png" width="33"></a>
 
         <script type="text/javascript">
+          const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
           var a = document.getElementById('email');
-          if(window.innerWidth<500) {
+          if(vw<=800) {
             a.href = "mailto:prateekg045@gmail.com"
           }
           else {
