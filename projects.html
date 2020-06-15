@@ -41,7 +41,18 @@
         &nbsp;
         <a href="https://github.com/PrateekGoyal18" target="_blank"><img alt="GitHub" src="assets/github.png" width="33"></a>
         &nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prateekg045@gmail.com" target="_blank"><img alt="Email" src="assets/email.png" width="33"></a>
+        <a id="email" target="_blank"><img alt="Email" src="assets/email.png" width="33"></a>
+
+        <script type="text/javascript">
+          const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+          var a = document.getElementById('email');
+          if(vw<=800) {
+            a.href = "mailto:prateekg045@gmail.com"
+          }
+          else {
+            a.href = "https://mail.google.com/mail/?view=cm&fs=1&to=prateekg045@gmail.com"
+          }
+        </script>
 
         <br>
         <br>
