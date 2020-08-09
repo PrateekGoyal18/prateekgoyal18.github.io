@@ -100,7 +100,16 @@
       
       <div class="card">
         <div class="row"><div class="col"><i class="fa fa-lightbulb-o fa-2x"></i></div></div>
-        <div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="20" data-speed="3000"></h2></div></div>
+        <div class="row"><div class="col"><h2 class="timer count-title count-number" id="projects" data-to="20" data-speed="3000"></h2></div></div>
+		
+		<script type="text/javascript">
+			$(function() {
+				setTimeout(function() {
+					$("#projects").html("20+");
+				}, 4000);
+			});
+		</script>
+
         <div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Projects Done</p></div></div>
       </div>
 
