@@ -25,167 +25,179 @@
 </head>
 
 <body style="background-image: url('assets/img/background.png');">
-<div id="google_translate_element"></div>
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-    }
-  </script>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	<!-- Google Translate -->
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+		}
+  	</script>
+  	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	<!-- Header -->
+  	<main class="page-content" aria-label="Content">
+  		<div class="wrapper">
+  			<div class="header">
+  				<img class="profile" src="assets/img/profile.jpg">
+        		<h1 class="profile-name">Prateek Goyal</h1>
+        		<h2 style="font-family: 'Bad Script', Sans-serif; font-size: 20px; color: dimgray; font-weight: bolder; text-decoration-line: underline; text-decoration-style: wavy; margin-top: -20px"><span class="txt-rotate" data-period="1000" data-rotate='["Electronics Geek", "Software Developer", "Web Designer"]'></span></h2>
+        		<a href="https://www.instagram.com/prateek.goyal18/" target="_blank"><img alt="Instagram" src="assets/img/instagram.png" width="30"></a>
+        		&nbsp;
+        		<a href="https://twitter.com/Prateekg18" target="_blank"><img alt="Twitter" src="assets/img/twitter.png" width="27"></a>
+       	 		&nbsp;
+       	 		<a href="https://www.linkedin.com/in/prateekgoyal18/" target="_blank"><img alt="LinkedIn" src="assets/img/linkedin.png" width="27"></a>
+        		&nbsp;
+        		<a href="https://github.com/PrateekGoyal18" target="_blank"><img alt="GitHub" src="assets/img/github.png" width="30"></a>
+        		&nbsp;
+        		<a id="email" target="_blank"><img alt="Email" src="assets/img/email.png" width="30"></a>
 
+        		<script type="text/javascript">
+        			const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        			var a = document.getElementById('email');
+          			if(vw <= 800) {
+          				a.href = "mailto:prateekg045@gmail.com"
+          			}
+		          	else {
+		          		a.href = "https://mail.google.com/mail/?view=cm&fs=1&to=prateekg045@gmail.com"
+		          	}
+		        </script>
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <div class="header">
-        <img class="profile" src="assets/img/profile.jpg">
-        <h1 class="profile-name">Prateek Goyal</h1>
-        <h2 style="font-family: 'Bad Script', Sans-serif; font-size: 20px; color: dimgray; font-weight: bolder; text-decoration-line: underline; text-decoration-style: wavy; margin-top: -20px"><span class="txt-rotate" data-period="1000" data-rotate='["Electronics Geek", "Software Developer", "Web Designer"]'></span></h2>
-        <a href="https://www.instagram.com/prateek.goyal18/" target="_blank"><img alt="Instagram" src="assets/img/instagram.png" width="30"></a>
-        &nbsp;
-        <a href="https://twitter.com/Prateekg18" target="_blank"><img alt="Twitter" src="assets/img/twitter.png" width="27"></a>
-        &nbsp;
-        <a href="https://www.linkedin.com/in/prateekgoyal18/" target="_blank"><img alt="LinkedIn" src="assets/img/linkedin.png" width="27"></a>
-        &nbsp;
-        <a href="https://github.com/PrateekGoyal18" target="_blank"><img alt="GitHub" src="assets/img/github.png" width="30"></a>
-        &nbsp;
-        <a id="email" target="_blank"><img alt="Email" src="assets/img/email.png" width="30"></a>
+		        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+		        	<ul class="pure-menu-list">
+		        		<li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+            			<li class="pure-menu-item"><a href="projects.html" class="pure-menu-link">Projects</a></li>
+     			       <li class="pure-menu-item"><a href="publications.html" class="pure-menu-link">Publications</a></li>
+            			<li class="pure-menu-item"><a href="https://canvasoflearning.wordpress.com/" class="pure-menu-link">Blog</a></li>
+          			</ul>
+        		</div>
+      		</div>
+      	</div>
+    </main>
 
-        <script type="text/javascript">
-          const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-          var a = document.getElementById('email');
-          if(vw<=800) {
-            a.href = "mailto:prateekg045@gmail.com"
-          }
-          else {
-            a.href = "https://mail.google.com/mail/?view=cm&fs=1&to=prateekg045@gmail.com"
-          }
-        </script>
+    <div class="content">
 
-        <br>
-        <br>
+    	<!-- Introduction -->
+    	<h1 id="hello">Hello!</h1>
 
-        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
-          <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="projects.html" class="pure-menu-link">Projects</a></li>
-            <li class="pure-menu-item"><a href="publications.html" class="pure-menu-link">Publications</a></li>
-            <li class="pure-menu-item"><a href="https://canvasoflearning.wordpress.com/" class="pure-menu-link">Blog</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </main>
+    	<p>I’m Prateek, a Research Associate at Indian Institute of Technology, Delhi's <a href="http://ee.iitd.ernet.in" target="_blank">Department of Electrical Engineering</a> and <a href="http://ces.iitd.ac.in/" target="_blank"> Centre for Energy Studies</a>. I graduated from Guru Gobind Singh Indraprastha University in 2018 with a degree in electronics and communication engineering. I currently work with the team at EPRES Lab in a government of India funded project titled "Energy Efficient Buildings: Technology with Intelligence", where I focus on designing hardware and software solutions for making homes and buildings smarter.</p>
 
-  <div class="content">
-  	<h1 id="hello">Hello!</h1>
+    	<p>I have previouly worked at <a href="https://www.banaao.co.in/" target="_blank">Banaao Innovation Labs</a> as a summer intern where I designed several hardware-based solutions for home automation and as a Quality Assurance Trainee in <a href="http://www.dgqadefence.gov.in/dqa%28n%29" target="_blank">Indian Navy</a>, performing various quality assurance tests on naval equipments. Outside of engineering background, I've also worked at <a href="https://unacademy.com/" target="_blank">Unacademy</a> as an educator teaching students concepts of quantitative and logical reasoning for government exams, and has been a part of <a href="https://nss.gov.in/" target="_blank">NSS group</a> of our college involved in environmental activities and teaching economically weak students.</p>
 
-    <p>I’m Prateek, a Research Associate at Indian Institute of Technology, Delhi's <a href="http://ee.iitd.ernet.in" target="_blank">Department of Electrical Engineering</a> and <a href="http://ces.iitd.ac.in/" target="_blank"> Centre for Energy Studies</a>. I graduated from Guru Gobind Singh Indraprastha University in 2018 with a degree in electronics and communication engineering. I currently work with the team at EPRES Lab in a government of India funded project titled "Energy Efficient Buildings: Technology with Intelligence", where I focus on designing hardware and software solutions for making homes and buildings smarter.</p>
+    	<p>My interest lies in embedded systems, internet of things and smart grids, coupled with neural approach. I love to travel and like playing outdoor games especially volleyball, basketball and cricket.</p>
 
-    <p>I have previouly worked at <a href="https://www.banaao.co.in/" target="_blank">Banaao Innovation Labs</a> as a summer intern where I designed several hardware-based solutions for home automation and as a Quality Assurance Trainee in <a href="http://www.dgqadefence.gov.in/dqa%28n%29" target="_blank">Indian Navy</a>, performing various quality assurance tests on naval equipments. Outside of engineering background, I've also worked at <a href="https://unacademy.com/" target="_blank">Unacademy</a> as an educator teaching students concepts of quantitative and logical reasoning for government exams, and has been a part of <a href="https://nss.gov.in/" target="_blank">NSS group</a> of our college involved in environmental activities and teaching economically weak students.</p>
-
-    <p>My interest lies in embedded systems, internet of things and smart grids, coupled with neural approach. I love to travel and like playing outdoor games especially volleyball, basketball and cricket.</p>
-
-    <div class="container cards-container">
-      <div class="card">
-        <div class="row"><div class="col"><i class="fa fa-code fa-2x"></i></div></div>
-        <div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="30000" data-speed="3000"></h2></div></div>
-        <div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Lines of Code written</p></div></div>
-      </div>
-
-      <div class="card">
-        <div class="row"><div class="col"><i class="fa fa-coffee fa-2x"></i></div></div>
-        <div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="1000" data-speed="3000"></h2></div></div>
-        <div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Cups of coffee drank</p></div></div>
-      </div>
-      
-      <div class="card">
-        <div class="row"><div class="col"><i class="fa fa-lightbulb-o fa-2x"></i></div></div>
-        <div class="row"><div class="col"><h2 class="timer count-title count-number" id="projects" data-to="20" data-speed="3000"></h2></div></div>
-		
-		<script type="text/javascript">
-			$(function() {
-				setTimeout(function() {
-					$("#projects").html("20+");
-				}, 4000);
-			});
-		</script>
-
-        <div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Projects Done</p></div></div>
-      </div>
-
-      <div class="card">
-        <div class="row"><div class="col"><i class="fa fa-bug fa-2x"></i></div></div>
-        <div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="2000" data-speed="3000"></h2></div></div>
-        <div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Bugs squashed</p></div></div>
-      </div>
-    </div>
-
-    <br>
-
-    <div class="container resume-container">
-    	<a class="button" href="assets/PrateekGoyal_CV.pdf" target="_blank">Download my CV <i class="fa fa-download" aria-hidden="true"></i></a>
-	</div>
-    
-    <br>
-
-    <h2 id="experience">Experience</h2>
-    <div class="collapse">
-
-    	<div class="tab">
-    		<input type="checkbox" id="tab1" class="tab-toggle">
-        	<label for="tab1" class="tab-label">Web Developer - Freelance</label>
-        	<div class="tab-content">
-        		2019 - Present
-	          	<ul>
-	          		<li>Three websites built and hosted, with more projects ongoing.</li>
-	            	<li>Comprehensive knowledge of front-end languages HTML, CSS and Javascript.</li>
-	            	<li>Experience with WordPress, Wix and Shopify.</li>
-	          	</ul>
+    	<!-- Cards -->
+    	<div class="container cards-container">
+    		<div class="card">
+    			<div class="row"><div class="col"><i class="fa fa-code fa-2x"></i></div></div>
+        		<div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="30000" data-speed="3000"></h2></div></div>
+        		<div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Lines of Code written</p></div></div>
         	</div>
-      </div>
 
-      <div class="tab">
-        <input type="checkbox" id="tab2" class="tab-toggle">
-        <label for="tab2" class="tab-label">Research Associate - Indian Institute of Technology</label>
-        <div class="tab-content">
-          Sept 2018 - Present
-          <ul>
-            <li>Wrote an Adaptive Lighting Algorithm for dimming the LED lights based on various factors such as mutual zone illumination, outside illumination, BEE standards and time-based gain.</li>
-            <li>Involved in the development and deployment of IoT Analytics-based Smart Energy Meter with functionalities such as GUI based electrical parameters monitoring on Android Application and Windows in-house built-in software, control loop feedback, demand-side management, automatic billing, timely alerts, appliance detection and GSM connect capability.</li>
-            <li>Designed and installed low-cost smart appliance control modules with features such as zonal control, time-table based scheduling and appliance health monitoring.</li>
-            <li>Designed and developed <a href="https://energymeter-dash.herokuapp.com/">web application</a> based on Flask framework for displaying energy meter data and to control the home/building appliances, using Pyrebase built over Firebase REST API.</li>
-            <li>Designed and developed <a href="https://covid-19predictor.herokuapp.com/">website</a> for forecasting the number of Covid-19 cases in India (cumulative and state-wise), through a ML model based on Keras and Tensorflow.</li>
-          </ul>
-        </div>
-      </div>
+        	<div class="card">
+        		<div class="row"><div class="col"><i class="fa fa-coffee fa-2x"></i></div></div>
+        		<div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="1000" data-speed="3000"></h2></div></div>
+       	 		<div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Cups of coffee drank</p></div></div>
+      		</div>
 
-      <div class="tab">
-        <input type="checkbox" id="tab4" class="tab-toggle">
-        <label for="tab4" class="tab-label">QA Intern - Indian Navy</label>
-        <div class="tab-content">
-          Jun 2017 - Jul 2017
-          <ul>
-            <li>The internship involved the Quality Control and Assurance of naval equipments & radars at various R&D facilities of the Indian Navy in the northern province of India.</li> 
-            <li>After it’s completion, submitted a report on “Defence Command & Control System (DCCS)” to the Indian Defence IHQ.</li>
-          </ul>
-        </div>
-      </div>
+      		<div class="card">
+      			<div class="row"><div class="col"><i class="fa fa-lightbulb-o fa-2x"></i></div></div>
+	        	<div class="row"><div class="col"><h2 class="timer count-title count-number" id="projects" data-to="20" data-speed="3000"></h2></div></div>
+			
+				<script type="text/javascript">
+					$(function() {
+						setTimeout(function() {
+							$("#projects").html("20+");
+						}, 4000);
+					});
+				</script>
 
-      <div class="tab">
-        <input type="checkbox" id="tab3" class="tab-toggle">
-        <label for="tab3" class="tab-label">Electronics Intern - Banaao Innovation Labs</label>
-        <div class="tab-content">
-          Jun 2016 - Aug 2016
-          <ul>
-            <li>Worked on various IoT and Home Automation products, some of which included Automated Door Mat, RFID operated coffee machine, Propeller Clock, Amazon Dash Button and Happy HR board.</li>
-            <li>Headed training sessions to teach students and hobbyists microcontrollers programming, PCB designing & 3-D Printing.</li>
-            <li>Part of relationship team for organizing Delhi Mini Maker Faire (DMMF) 2016. My responsibility was to manage the hospitality of all the creators and makers who came to the event and to showcase the innovations going on at our makerspace.</li>
-          </ul>
-        </div>
-      </div>
-    
-    </div>
-  </div>
+				<div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Projects Done</p></div></div>
+	      	</div>
+
+	      	<div class="card">
+	      		<div class="row"><div class="col"><i class="fa fa-bug fa-2x"></i></div></div>
+        		<div class="row"><div class="col"><h2 class="timer count-title count-number" data-to="2000" data-speed="3000"></h2></div></div>
+        		<div class="row"><div class="col"><p class="count-text" style="text-align: center !important;">Bugs squashed</p></div></div>
+      		</div>
+      	</div>
+
+	
+		<!-- Resume -->
+    	<div class="container resume-container">
+    		<a class="button" href="assets/PrateekGoyal_CV.pdf" target="_blank">Download my CV <i class="fa fa-download" aria-hidden="true"></i></a>
+		</div>
+
+
+		<!-- Experience -->
+		<h2 id="experience">Experience</h2>
+		<div class="collapse">
+			<div class="tab">
+				<input type="checkbox" id="tab1" class="tab-toggle">
+        		<label for="tab1" class="tab-label">Web Developer - Freelance</label>
+        		<div class="tab-content">
+        			2019 - Present
+	          		<ul>
+	          			<li>Ten websites built and hosted, with more projects ongoing.</li>
+	            		<li>Comprehensive knowledge of front-end languages - HTML, CSS and Javascript.</li>
+	            		<li>Experience with WordPress, Shopify and Wix.</li>
+	          		</ul>
+        		</div>
+        	</div>
+
+        	<div class="tab">
+        		<input type="checkbox" id="tab2" class="tab-toggle">
+        		<label for="tab2" class="tab-label">Research Associate - Indian Institute of Technology</label>
+        		<div class="tab-content">
+        			Sept 2018 - Present
+          			<ul>
+          				<li>Wrote an Adaptive Lighting Algorithm for dimming the LED lights based on various factors such as mutual zone illumination, outside illumination, BEE standards and time-based gain.</li>
+            			<li>Involved in the development and deployment of IoT Analytics-based Smart Energy Meter with functionalities such as GUI based electrical parameters monitoring on Android Application and Windows in-house built-in software, control loop feedback, demand-side management, automatic billing, timely alerts, appliance detection and GSM connect capability.</li>
+            			<li>Designed and installed low-cost smart appliance control modules with features such as zonal control, time-table based scheduling and appliance health monitoring.</li>
+            			<li>Developed software, <a href="https://bmsdash.herokuapp.com/">web</a> and android applications for building management system withf unctionalities  such  as  monitoring  of  electrical  data,  real-time  control  of  appliances, HVAC control and monitoring of indoor environmental parameters.</li>
+            			<li>Designed and developed <a href="https://covid-19predictor.herokuapp.com/">website</a> for forecasting the number of Covid-19 cases in India (cumulative and state-wise), through a ML model based on Keras and Tensorflow.</li>
+            		</ul>
+            	</div>
+            </div>
+
+            <div class="tab">
+            	<input type="checkbox" id="tab3" class="tab-toggle">
+            	<label for="tab3" class="tab-label">Educator - Unacademy</label>
+            	<div class="tab-content">
+            		Jun 2018 - Aug 2018
+          			<ul>
+            			<li>Developed courses on Quantitative and Logical Reasoning topics for competitive exams like CAT, SSC-CGL, Bank PO, AFCAT, UPSC-CDS etc.</li>
+            			<a href="https://unacademy.com/user/Prateek.Goyal" target="_blank">Profile Link</a>
+          			</ul>
+        		</div>
+        	</div>
+
+            <div class="tab">
+            	<input type="checkbox" id="tab4" class="tab-toggle">
+            	<label for="tab4" class="tab-label">QA Intern - Indian Navy</label>
+            	<div class="tab-content">
+            		Jun 2017 - Jul 2017
+          			<ul>
+            			<li>The internship involved the Quality Control and Assurance of naval equipments & radars at various R&D facilities of the Indian Navy in the northern province of India.</li> 
+            			<li>After it’s completion, submitted a report on “Defence Command & Control System (DCCS)” to the Indian Defence IHQ.</li>
+          			</ul>
+        		</div>
+        	</div>
+
+        	<div class="tab">
+        		<input type="checkbox" id="tab5" class="tab-toggle">
+        		<label for="tab5" class="tab-label">Electronics Intern - Banaao Innovation Labs</label>
+        		<div class="tab-content">
+          			Jun 2016 - Aug 2016
+          			<ul>
+            			<li>Worked on various IoT and Home Automation products, some of which included Automated Door Mat, RFID operated coffee machine, Propeller Clock, Amazon Dash Button and Happy HR board.</li>
+			            <li>Headed training sessions to teach students and hobbyists microcontrollers programming, PCB designing & 3-D Printing.</li>
+			            <li>Part of relationship team for organizing Delhi Mini Maker Faire (DMMF) 2016. My responsibility was to manage the hospitality of all the creators and makers who came to the event and to showcase the innovations going on at our makerspace.</li>
+			        </ul>
+			    </div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>

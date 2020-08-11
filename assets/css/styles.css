@@ -38,7 +38,7 @@ li{
     margin-top: 0.7em;
 }
 
-/*Collpase Menu*/
+/*Experience*/
 .collapse {
     border-radius: 8px;
     overflow: hidden;
@@ -59,7 +59,7 @@ li{
     background-color: #eddfe6;
 }
 .collapse .tab-toggle:checked ~.tab-label {
-    background-color: #eddab4;
+    /*background-color: #eddab4;*/
 }
 .collapse .tab-label::after {
     /*content: '\276F';*/
