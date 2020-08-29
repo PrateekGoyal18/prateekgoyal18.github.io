@@ -44,6 +44,14 @@ li{
     margin-top: 0.7em;
 }
 
+.faicon {
+    color: black;
+    font-size: 25px;
+}
+.faicon:hover {
+    color: #bb8f0a;
+}
+
 /*Experience*/
 .collapse {
     border-radius: 8px;
@@ -93,13 +101,13 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
 }
 .button {
     color: #000;
     text-align: center;
     padding: 10px;
-    width: 150px;
+    width: 160px;
     border: 1px solid black;
     border-radius: 10px;
     text-decoration: none;
