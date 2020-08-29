@@ -137,9 +137,11 @@ li{
     justify-content: center;
 }
 .img-links {
-    color: black;
+    color: white;
     border: 1px solid lightgrey;
     margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .works {
     width: 300px;
@@ -150,9 +152,13 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .works:hover {
     opacity: 0.5;
+    -webkit-transform: scale(1.2, 1.2); 
+    transform: scale(1.2, 1.2);
+    -webkit-transition: all 0.3s ease-in-out;
 }
 .works-link {
     visibility: hidden;
