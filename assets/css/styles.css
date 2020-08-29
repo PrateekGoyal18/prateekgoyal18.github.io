@@ -139,6 +139,9 @@ li{
     -moz-box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
     box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
 }
+.card .row {
+    margin-top: -5px;
+}
 
 /*Works*/
 .works-container {
