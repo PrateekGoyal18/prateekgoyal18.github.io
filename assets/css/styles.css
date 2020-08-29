@@ -13,8 +13,18 @@ body {
     margin-top: 5px;
     font-size: 36px;
 }
-.content {
+/*.content {
     margin: 0 20%;
+}*/
+@media screen and (max-width: 794px) {
+  .content {
+    margin: 0 2%;
+  }
+}
+@media screen and (min-width: 795px) {
+  .content {
+    margin: 0 8%;
+  }
 }
 p {
     font-size: 17px;
