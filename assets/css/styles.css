@@ -1,7 +1,7 @@
 body {
     padding: 20px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
 }
 .header {
     text-align: center;
@@ -14,21 +14,25 @@ body {
     font-size: 36px;
 }
 .content {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 20%;
 }
 p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
     text-align: justify;
 }
-a {
-    color: #258cdb;
+.links {
     text-decoration: none;
+    color: black;
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
+    transition: background-position 120ms ease-in-out 0s, padding 120ms ease-in-out 0s;
+    background-size: 100% 220%;
+    background-position: 0px 0px;
 }
-a:hover {
-    color: #2571db;
+.links:hover {
+    color: black;
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), #00ff6c calc(50% - 9px), #00ff6c 100%);
+    background-position: 0px 100%;
 }
 h1 {
     font-size: 28px;
@@ -52,7 +56,7 @@ li{
     padding: 0.6em;
     margin-top: 0.5em;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 2px solid lightgrey;
     margin-bottom: 0.8em;
 }
 .collapse .tab-label:hover {
@@ -87,6 +91,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0 0 0;
 }
 .button {
     color: #000;
@@ -95,6 +100,7 @@ li{
     width: 150px;
     border: 1px solid black;
     border-radius: 10px;
+    text-decoration: none;
 }
 .button:hover {
     color: #220ff5;
@@ -111,7 +117,7 @@ li{
     width: 110px;
     height: 160px;
     margin: 10px;
-    padding-top: 20px; padding-left: 20px; padding-right: 20px; 
+    padding: 20px 20px 0 20px; 
     border: 2px solid lightgrey;
     border-radius: 10px;
 }
@@ -120,4 +126,32 @@ li{
     -webkit-box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
     -moz-box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
     box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
+}
+
+/*Works*/
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-links {
+    color: black;
+    border: 1px solid lightgrey;
+    margin: 5px;
+}
+.works {
+    width: 300px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works:hover {
+    opacity: 0.5;
+}
+.works-link {
+    visibility: hidden;
 }
