@@ -156,6 +156,9 @@ li{
     border-radius: 10px;
     overflow: hidden;
 }
+.img-links:hover {
+    text-decoration: none;
+}
 .works {
     width: 300px;
     height: 180px;
@@ -163,6 +166,8 @@ li{
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -174,5 +179,19 @@ li{
     -webkit-transition: all 0.3s ease-in-out;
 }
 .works-link {
-    visibility: hidden;
+    opacity: 1;
+    font-size: 40px;
+    position: relative;
+    top: -30px;
+}
+.website {
+    background-color: #ed3948;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    top: -44px;
 }
