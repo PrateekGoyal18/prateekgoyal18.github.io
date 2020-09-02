@@ -9,6 +9,17 @@ body {
 .header-active {
     background-color: #eeeeee;
 }
+@media screen and (max-width: 499px) {
+  .pure-menu-list {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+.pure-menu-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
 .profile {
     width: 150px;
 }
