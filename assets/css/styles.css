@@ -9,15 +9,16 @@ body {
 .header-active {
     background-color: #eeeeee;
 }
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 516px) {
   .pure-menu-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
     flex-direction: column !important;
     align-items: center;
   }
-}
-.pure-menu-list {
-  display: flex !important;
-  flex-wrap: wrap !important;
+  .pure-menu-item {
+    margin: 5px 0 0 0;
+  }
 }
 
 .profile {
@@ -70,6 +71,9 @@ li{
     border-radius: 8px;
     overflow: hidden;
 }
+.collapse .tab {
+    margin: 0;
+}
 .collapse .tab-toggle {
     display: none;
 }
@@ -105,7 +109,7 @@ li{
     padding: 0 1em;
 }
 .collapse .tab-toggle:checked ~ .tab-content {
-    max-height: 100vh;
+    max-height: 200vh;
     padding: 0.2em;
 }
 
@@ -146,9 +150,9 @@ li{
 }
 .card:hover {
     /*box-shadow: 5px 5px 4px #888888;*/
-    -webkit-box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
-    -moz-box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
-    box-shadow: 6px 7px 19px -1px rgba(148,133,148,0.75);
+    -webkit-box-shadow:  2px 4px 21px 0px rgba(148,133,148,0.75);
+    -moz-box-shadow:  2px 4px 21px 0px rgba(148,133,148,0.75);
+    box-shadow:  2px 4px 21px 0px rgba(148,133,148,0.75);
 }
 .card .row {
     margin-top: -5px;
