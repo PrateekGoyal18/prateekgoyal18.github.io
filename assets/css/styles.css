@@ -185,10 +185,9 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
 }
 .works:hover {
-    opacity: 0.5;
+    opacity: 0.55;
     -webkit-transform: scale(1.2, 1.2); 
     transform: scale(1.2, 1.2);
     -webkit-transition: all 0.3s ease-in-out;
